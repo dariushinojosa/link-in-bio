@@ -1,0 +1,45 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding: 40px 0;
+  background: honeydew;
+}
+
+.main-container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.image-row {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.name-row {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.icons-row {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.avatar-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 128px;
+}
+
+.icon {
+  margin: 0 5px
+}
+
+* {
+  border: 1px red dashed;
+}
