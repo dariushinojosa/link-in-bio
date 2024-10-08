@@ -6,6 +6,7 @@ body {
   min-height: 100%;
   padding: 40px 0;
   background: honeydew;
+  font-family: "Cabin";
 }
 
 .main-container {
@@ -21,12 +22,18 @@ body {
 .name-row {
   padding: 10px 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
 }
 
 .icons-row {
   padding: 10px 0;
   text-align: center;
+}
+
+.links-row {
+  padding: 20px 0;
 }
 
 .avatar-image {
@@ -37,9 +44,32 @@ body {
 }
 
 .icon {
-  margin: 0 5px
+  font-size: 25px;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-* {
-  border: 1px red dashed;
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.item {
+  background-color: darkslategray;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.link-text {
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+  text-decoration: none;
+  font-size: medium;
 }
